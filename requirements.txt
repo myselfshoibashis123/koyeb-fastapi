@@ -1,2 +1,9 @@
 fastapi
 uvicorn
+celery
+redis
+asgiref
+sqlalchemy
+httpx
+aiofiles
+pydantic
