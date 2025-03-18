@@ -17,7 +17,7 @@ class AssetData(Base):
     criticality = Column(String, nullable=False)
     description = Column(String, nullable=False)
     category = Column(String, nullable=False)
-    type = Column(String, nullable=False)
+    type = Column(String, nullable=False) # to avoid keyword change to atype
     location = Column(String, nullable=False)
     image_path = Column(String)
     # Timestamp for record updates
