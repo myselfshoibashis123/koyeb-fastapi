@@ -3,3 +3,38 @@ predix-env
 .DS_Store
 assetsInfo/
 assetInfo.db
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*.so
+*.log
+
+# Virtual environment
+venv/
+.env
+.env.*
+
+# SQLite DB
+*.db
+
+# VSCode settings (optional)
+.vscode/
+
+# Docker
+*.pid
+docker-compose.override.yml
+
+# Jupyter Notebooks checkpoints (if any)
+.ipynb_checkpoints/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Distribution / packaging
+*.egg-info/
+dist/
+build/
+
+# Other
+flaml.log

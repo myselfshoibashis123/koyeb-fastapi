@@ -7,3 +7,6 @@ sqlalchemy
 httpx
 aiofiles
 pydantic
+python-multipart
+requests
+flaml
